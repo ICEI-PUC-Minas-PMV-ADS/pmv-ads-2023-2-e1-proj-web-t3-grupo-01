@@ -34,11 +34,11 @@ O quadro kanban do grupo no Trello está disponível no link https://trello.com/
 
 <ul>
   <li>Bug (Erro no código)</li>
-  <li>Desenvolvimento (Development)</li>
-  <li>Documentação (Documentation)</li>
-  <li>Gerência de Projetos (Project Management)</li>
-  <li>Infraestrutura (Infrastructure)</li>
-  <li>Testes (Tests)</li>
+  <li>Desenvolvimento)</li>
+  <li>Documentação</li>
+  <li>Gerência de Projetos)</li>
+  <li>Infraestrutura</li>
+  <li>Testes</li>
 </ul>
 
 <figure> 
