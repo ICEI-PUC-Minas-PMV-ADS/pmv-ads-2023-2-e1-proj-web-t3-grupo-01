@@ -42,7 +42,7 @@ O quadro kanban do grupo no Trello está disponível no link https://trello.com/
 </ul>
 
 <figure> 
-  <img src="img/github.png"
+  <img src="img/Etiquetas2.png"
     <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
