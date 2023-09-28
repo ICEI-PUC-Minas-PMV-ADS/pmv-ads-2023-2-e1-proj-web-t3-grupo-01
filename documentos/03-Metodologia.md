@@ -29,6 +29,11 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo no Trello está disponível no link https://trello.com/b/hxjuL31x/projeto-flexifit e é apresentado, no estado atual, na figura abaixo:
 
+<figure> 
+  <img src="img/kanban.png"
+    <figcaption>Figura 1 - Kanban - Projeto - Flexifit</figcaption>
+</figure> 
+
 ### Etiquetas
 <p>As tarefas são, ainda, etiquetadas em função da natureza da atividade e seguem o seguinte esquema de cores/categorias:</p>
 
@@ -43,7 +48,7 @@ O quadro kanban do grupo no Trello está disponível no link https://trello.com/
 
 <figure> 
   <img src="img/Etiquetas2.png"
-    <figcaption>Figura 3 - Tela do esquema de cores e categorias</figcaption>
+    <figcaption>Figura 2 - Tela do esquema de cores e categorias</figcaption>
 </figure> 
   
 ### Ferramentas
@@ -56,9 +61,8 @@ Os artefatos do projeto são desenvolvidos a partir de diversas plataformas e a 
 |-------------------------------------|------------------------------------|----------------------------------------|
 | Repositório de código fonte         | GitHub                             | http://....                            |
 | Documentos do projeto               | GitHub                             | http://....                            |
-| Projeto de Interface                | Figma                              | http://....                            |
-| Gerenciamento do Projeto            | GitHub Projects                    | http://....                            |
-| Hospedagem                          | GitHub Pages                       | http://....                            |
+| Projeto de Interface                | Figma                              | https://www.figma.com/file/wAKx1s0sbXuWETPymZyRJO/Untitled?type=design&node-id=2%3A7&mode=design&t=TS79o4AamIFhlfC4-1 |
+| Gerenciamento do Projeto            | GitHub Projects                    | https://trello.com/b/hxjuL31x/projeto-flexifit |
 
 
 ### Estratégia de Organização de Codificação 
