@@ -1,35 +1,26 @@
 # Introdução
 
-[Aqui a equipe deve criar um texto descritivo com a visão geral do problema abordado, apresentando o ambiente e as situações envolvidas no problema.]
+No cenário das academias modernas, a otimização do tempo e a eficácia na gestão são elementos cruciais para o sucesso. Neste contexto, este projeto propõe o desenvolvimento de um software de marcação de horários dedicado a mudar a forma como as academias agendam e gerenciam suas atividades diárias, o FlexiFit.
 
 ## Problema
-[Aqui a equipe deve fornecer uma descrição detalhada do problema a ser resolvido. Não é o momento adequado para abordar questões técnicas relacionadas ao desenvolvimento da aplicação. O objetivo é compreender e comunicar de maneira precisa qual é o desafio ou necessidade que motiva a criação da aplicação.]
 
-Este link pode ajudar a equipe a entender mais sobre definição do problema: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-
+Atualmente, muitas academias enfrentam diversos problemas na gestão de horários e agendamento de aulas. O processo de agendamento manual, embora comum, é uma prática custosa e ineficiente devido a desafios como os conflitos e a falta de visibilidade dos horários. Além disso, a questão da superlotação é um problema constante em academias com grande fluxo de clientes, resultando em espaços insuficientes, afetando a qualidade das aulas e a experiência dos clientes.
 
 ## Objetivos
 
-[Aqui a equipe deve realizar uma descrição detalhada dos objetivos do trabalho, ressaltando quais as questões principais do problema a serem resolvidas pelo projeto, não é a hora de apresentar requisitos detalhados.]
- 
-Este link pode ajudar a equipe a entender mais sobre definição dos objetivos: [Objetivos, Problema de pesquisa e Justificativa.](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
+O objetivo principal do projeto FlexiFit é desenvolver um sistema inovador e eficiente de gerenciamento de horários para academias, com o propósito de otimizar a experiência dos usuários e a operação interna do estabelecimento. A FlexiFit visa oferecer uma solução abrangente que permita aos clientes visualizar e agendar horários de treino de acordo com a disponibilidade de espaços e capacidade de lotação
 
 ## Justificativa
 
-[Aqui a equipe deve descrever a importância ou a motivação para trabalhar com o problema definido. Indique as razões pelas quais a equipe escolheu o problema e definiu os objetivos.
+Muitos cancelamentos ocorrem devido a carência de apoio e atenção personalizada, em vez de simplesmente da  desmotivação em relação aos treinos. A retenção dos alunos está diretamente ligada à habilidade dos gestores em compreender as expectativas.
 
-Devem ser apresentados dados de fontes relevantes e confiáveis sobre o problema, inserindo-o como alvo de estudo. Sugere-se que a equipe utilize questionários, entrevistas e dados estatísticos, que devem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pela equipe.]
-
-Este link pode ajudar a equipe a formular a justificativa: [Como montar a justificativa.](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+A implementação de um sistema de gerenciamento de horários e prevenção de superlotação em uma academia é justificada para otimizar a operação, melhorar a experiência dos membros, manter alta qualidade dos serviços, garantir segurança e higiene, além de fortalecer o equilíbrio financeiro da academia. Isso resulta em um ambiente funcional, satisfatório e eficiente para todos os envolvidos.
 
 ## Público-Alvo
 
-[Aqui é necessário descrever os atores envolvidos no problema, destacando os diferentes perfis de usuários. O propósito é apresentar as características, necessidades, conhecimentos prévios e experiência com a tecnologia do público-alvo.
+Adolescentes: Jovens que desejam iniciar no mundo da musculação e tem facilidade de realizar ações em um site.
+Adultos: Maiores de idade que podem ter uma menor facilidade em utilizar um site.
+Idosos: Pessoas na terceira idade que normalmente têm mais dificuldade na utilização de um site.
 
-Sugere-se que a equipe utilize questionários e/ou entrevistas a fim de conhecer os atores que compõem o público alvo.]
 
-Os links abaixo podem ajudar a equipe a conhecer um pouco mais sobre o público-alvo. 
-
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
 
