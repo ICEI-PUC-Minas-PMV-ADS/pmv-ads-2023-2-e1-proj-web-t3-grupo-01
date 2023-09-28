@@ -1,25 +1,25 @@
-# Título do Projeto
+# Flexifit
 
-`CURSO`
+`Análise e Desenvolvimento de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de Aplicação Web Front-End`
 
-`SEMESTRE`
+`Eixo 1`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
-* Nome completo do aluno 5
-* Nome completo do aluno 6
+* Felipe Ferreira Machado
+* Marina Dionysio Mariano
+* Pablo Rangel Nascimento Lima
+* Pedro Francis Maia Coelho
+* Pedro Henrique Chaves Dias
+* Sergio Gonçalves da Silva Junior
 
 ## Orientador
 
-* Nome completo do professor
+* Nathalia Assis Valentim
 
 # Documentação
 
