@@ -15,7 +15,7 @@ A equipe utiliza o Scrum como base para definição do processo de desenvolvimen
 
 - Scrum Master: Pedro Francis Maia Ceolho
 - Product Owner: Marina Dionysio Mariano
-- Equipe de Desenvolvimento: Pablo Rangel Nascimento Lima, Pedro Henrique Chaves
+- Equipe de Desenvolvimento: Pablo Rangel, Pedro Henrique, Sergio Gonçalves, Felipe Ferreira, Marina Dionysio e Pedro Francis.
 - Equipe de Design: Felipe Ferreira Machado, Sergio Gonçalves da Silva Junior
 
 ### Processo
