@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Inter"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">
+        <span class="title-01">FLEX</span><span class="title-02">FIT</span>
+      </div>
+      <div class="sub-title">
+        <span class="box">C</span>
+        <span class="sub-title-01">adastre-se</span>
+      </div>
+    </div>
+
+    <div class="form">
+      <div class="inputs">
+        <div class="input-body">
+          <input type="text" placeholder="Nome" />
+          <div class="action">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="text" placeholder="Email" />
+          <div class="action">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="password" placeholder="Senha" />
+          <div class="action">
+            <img src="images/eye.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="text" placeholder="CPF" />
+          <div class="action">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="number" placeholder="Numero" />
+          <div class="action">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="send-image">
+        <div class="image-selector">
+          <div class="image-placeholder">
+            <img src="images/no-image.svg" id="image-content" />
+          </div>
+          <div class="image-btn" id="send-img-btn">
+            <span>Enviar foto</span>
+          </div>
+          <input type="file" style="display: none" id="input-file"/>
+        </div>
+
+        <div class="user-role">
+          <span class="user-role-title">TIPO</span>
+          <div class="radios">
+            <div class="radio-input">
+              <span class="radio-label">ADMIN</span>
+              <input type="radio" name="role" />
+            </div>
+            <div class="radio-input">
+              <span class="radio-label">USUÁRIO</span>
+              <input type="radio" name="role" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="save-actions">
+      <button>Concluir</button>
+    </div>
+    <script src="cadastro.js"></script>
+  </body>
+</html>
