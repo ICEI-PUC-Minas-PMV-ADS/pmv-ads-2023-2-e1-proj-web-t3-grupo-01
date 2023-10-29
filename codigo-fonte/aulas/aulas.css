@@ -1,0 +1,71 @@
+
+body{
+    font-family: Inter;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2B2B2B;
+    background-image: url(/codigo-fonte/assets/images/Ondas.svg);
+}
+
+button{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 30px;
+    width: 28%;
+    height: 3.5rem;
+    background-color: #C10000;
+    border: transparent;
+    border-radius: 19px;
+    color:#D9D9D9;
+    font-size: 150%;
+}
+
+.cards{
+    display: flex;
+    gap: 0% 13%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-aula{
+    display: flex;
+    flex-basis: 100%;
+    align-items: end;
+    margin-bottom: 80px;
+    max-width: 20rem;
+    width: 26%;
+    height: 60vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/codigo-fonte/assets/images/zumba.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(18, 17, 17, 0.39);
+    backdrop-filter: blur(3.5px);
+    color: #D9D9D9;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.break{
+    width: 26%;
+    margin-bottom: 50px;
+    max-width: 20rem;
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
