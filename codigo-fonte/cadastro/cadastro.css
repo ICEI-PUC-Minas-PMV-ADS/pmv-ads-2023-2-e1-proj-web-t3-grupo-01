@@ -7,6 +7,12 @@
   --project-gradient-02: #b4b4b4;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 html {
   height: 100%;
   width: 100%;
@@ -14,14 +20,13 @@ html {
 
 body {
   font-family: "Inter";
+  color: var(--project-01);
   background-image: linear-gradient(
     var(--project-gradient-01),
     var(--project-gradient-02)
   );
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  color: var(--project-01);
+  background-attachment: fixed;
 }
 
 .header {
@@ -165,9 +170,9 @@ input {
   margin-left: 20px;
 }
 
-.radio-label{
-    font-weight: bold;
-    font-size: 16px;
+.radio-label {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .radios {
@@ -177,8 +182,8 @@ input {
 }
 
 input[type="radio"] {
-    transform: scale(1.2);
-    margin-bottom: 1px;
+  transform: scale(1.2);
+  margin-bottom: 1px;
 }
 
 .radio-input {
@@ -193,6 +198,7 @@ input[type="radio"] {
   justify-content: center;
   align-items: center;
   margin-top: 50px;
+  padding-bottom: 10px;
 }
 
 .save-actions button {
