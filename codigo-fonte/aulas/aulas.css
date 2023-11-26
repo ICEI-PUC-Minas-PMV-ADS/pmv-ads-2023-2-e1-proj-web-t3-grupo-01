@@ -64,8 +64,73 @@ button{
     max-width: 20rem;
 }
 
+.info{
+    padding-top: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+    color: #3C3C3C;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 90px;
+}
+
+.options{
+    margin-bottom: 40px;
+    width: 100%;
+    background: #D9D9D9;
+    border-radius: 7px;
+    height: 5vh;
+
+}
+
 #button{
     display: flex;
     justify-content: center;
     margin-top: 50px;
 }
+
+#fade, #modal{
+    transition: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+
+#add-modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background: #B3B3B3;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 30px;
+    height: 80%;
+    padding: 40px;
+}
+
+#add-modal.hide,
+#fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#add-modal.hide{
+    top: 0;
+}
+

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="aulas.css">
+    <script src="aulas.js" defer></script>
 </head>
 <body>
     <div class="cards">
@@ -32,9 +33,49 @@
         <div class="break"></div>
     </div>
     <div id="button">
-        <button>
+        <button id="open-modal">
             <p>Adicionar Aula</p>
             <image src="/codigo-fonte/assets/icons/add.svg" alt="Adicionar Aula"></image>
         </button>
+    </div>
+    <div id="fade" class="hide"></div>
+    <div id="add-modal" class="hide">
+        <div class="modal-header">
+            Cadastrar aula
+        </div>
+        <div class="info">
+            <form>
+                <select name="aulas" id="aulas" class="options">
+                    <option value="zumba">Aulas</option>
+                    <option value="zumba">Zumba</option>
+                    <option value="zumba">Zumba</option>
+                    <option value="zumba">Zumba</option>
+                </select>
+                <select name="horario" id="horario" class="options">
+                    <option value="dez">Horario</option>
+                    <option value="dez">10:30</option>
+                    <option value="dez">10:30</option>
+                    <option value="dez">10:30</option>
+                </select>
+                <select name="data" id="data" class="options">
+                    <option value="data">Data</option>
+                    <option value="data">11/11</option>
+                    <option value="data">11/11</option>
+                    <option value="data">11/11</option>
+                </select>
+            </form>
+        </div>
+        <div class="modal-footer">
+            <div id="button">
+                <button id="close-modal">
+                    <p>Voltar</p>
+                </button>
+            </div>
+            <div id="button">
+                <button id="close-modal">
+                    <p>Continuar</p>
+                </button>
+            </div>
+        </div>
     </div>
 </html>
