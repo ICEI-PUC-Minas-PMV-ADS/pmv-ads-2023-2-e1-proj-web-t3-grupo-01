@@ -1,0 +1,136 @@
+
+body{
+    font-family: Inter;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: #2B2B2B;
+    background-image: url(/codigo-fonte/assets/images/Ondas.svg);
+}
+
+button{
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+    gap: 0px 30px;
+    width: 28%;
+    height: 3.5rem;
+    background-color: #C10000;
+    border: transparent;
+    border-radius: 19px;
+    color:#D9D9D9;
+    font-size: 150%;
+}
+
+.cards{
+    display: flex;
+    gap: 0% 13%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-aula{
+    display: flex;
+    flex-basis: 100%;
+    align-items: end;
+    margin-bottom: 80px;
+    max-width: 20rem;
+    width: 26%;
+    height: 60vh;
+    border-radius: 10px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/codigo-fonte/assets/images/zumba.jpg);
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.card-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 15%;
+    border-radius: 0px 0px 10px 10px;
+    background: rgba(18, 17, 17, 0.39);
+    backdrop-filter: blur(3.5px);
+    color: #D9D9D9;
+    font-style: normal;
+    font-size: 100%;
+}
+
+.break{
+    width: 26%;
+    margin-bottom: 50px;
+    max-width: 20rem;
+}
+
+.info{
+    padding-top: 40px;
+    justify-content: center;
+    width: 100%;
+}
+
+.modal-header{
+    display: flex;
+    justify-content: center;
+    color: #3C3C3C;
+    font-size: 40px;
+    font-weight: 600;
+    padding-bottom: 90px;
+}
+
+.options{
+    margin-bottom: 40px;
+    width: 100%;
+    background: #D9D9D9;
+    border-radius: 7px;
+    height: 5vh;
+
+}
+
+#button{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+#fade, #modal{
+    transition: .5s;
+    opacity: 1;
+    pointer-events: all;
+}
+
+#fade{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    backdrop-filter: blur(5px);
+    z-index: 5;
+}
+
+#add-modal{
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    z-index: 10;
+    transform: translate(-50%, -50%);
+    background: #B3B3B3;
+    width: 500px;
+    max-width: 90%;
+    border-radius: 30px;
+    height: 80%;
+    padding: 40px;
+}
+
+#add-modal.hide,
+#fade.hide{
+    opacity: 0;
+    pointer-events: none;
+}
+
+#add-modal.hide{
+    top: 0;
+}
+
