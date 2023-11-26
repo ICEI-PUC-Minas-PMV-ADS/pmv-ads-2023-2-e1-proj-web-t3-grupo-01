@@ -190,6 +190,7 @@ input[type="radio"] {
   width: 85px;
   display: flex;
   align-items: center;
+  gap: 5px;
 }
 
 .save-actions {
