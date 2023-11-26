@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="cadastro.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com%22%3E/" />
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="header">
+      <div class="title">
+        <span class="title-01">FLEX</span><span class="title-02">FIT</span>
+      </div>
+      <div class="sub-title">
+        <span class="box">C</span>
+        <span class="sub-title-01">adastre-se</span>
+      </div>
+    </div>
+
+    <form class="form">
+      <div class="inputs">
+        <div class="input-body">
+          <input type="text" placeholder="Nome" id="nome-input" />
+          <div class="action" id="action" input-id="nome-input">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="email" placeholder="Email" id="email-input" />
+          <div class="action" id="action" input-id="email-input">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="password" placeholder="Senha" id="password-input" />
+          <div class="action" id="passwordAction" input-id="password-input">
+            <img src="images/eye.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="text" placeholder="CPF" id="cpf-input" />
+          <div class="action" id="action" input-id="cpf-input">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+
+        <div class="input-body">
+          <input type="number" placeholder="Numero" id="numero-input" />
+          <div class="action" id="action" input-id="numero-input">
+            <img src="images/close.svg" />
+          </div>
+        </div>
+      </div>
+
+      <div class="send-image">
+        <div class="image-selector">
+          <div class="image-placeholder">
+            <img src="images/no-image.svg" id="image-content" />
+          </div>
+          <div class="image-btn" id="send-img-btn">
+            <span>Enviar foto</span>
+          </div>
+          <input type="file" style="display: none" id="input-file" />
+        </div>
+
+        <div class="user-role">
+          <span class="user-role-title">TIPO</span>
+          <div class="radios">
+            <div class="radio-input">
+              <span class="radio-label">ADMIN</span>
+              <input type="radio" name="role" />
+            </div>
+            <div class="radio-input">
+              <span class="radio-label">USUÁRIO</span>
+              <input type="radio" name="role" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </form>
+
+    <div class="save-actions">
+      <button>Concluir</button>
+    </div>
+    <script src="cadastro.js"></script>
+  </body>
+</html>
