@@ -3,15 +3,24 @@ body{
     background-color: #2B2B2B;
     background-image: url(/codigo-fonte/assets/images/Ondas.svg);
     display: grid;
-    grid-template-columns: repeat(1fr, 3) ;
-    grid-template-rows: 50px repeat(1fr, 3);
+    grid-template-columns: 200px;
+    grid-template-rows: 200px;
     grid-template-areas: 
     "aside section section"
-    "aside section section"
-    "aside section section"
-    "aside section section"
     ;
-    grid-gap: 1vw;
+    grid-gap: 0vw;
+    padding: 0px;
+    margin: 0px;
+}
+
+.texto{
+    display: flex;
+    margin-left: 40px;
+    margin-bottom: 2rem;
+    justify-content: start;
+    font-weight: bold;
+    font-size: 24px;
+    color: #FFFFFF;
 }
 
 p{
@@ -131,6 +140,7 @@ select{
     cursor: pointer;
     justify-content: center;
     align-items: center;
+    margin-bottom: 4rem;
     gap: 0px 30px;
     width: 28%;
     height: 3.5rem;
@@ -227,6 +237,7 @@ select{
 @media (max-width: 674px) {
     body {
         grid-template-columns: 1fr; 
+        grid-template-rows: 840px;
         grid-template-areas: 
             "aside"
             "section"
