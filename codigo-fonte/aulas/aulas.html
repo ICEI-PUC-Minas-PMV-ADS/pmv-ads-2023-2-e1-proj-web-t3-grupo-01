@@ -1,84 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Aulas</title>
     <link rel="stylesheet" href="aulas.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
     <script src="aulas.js" defer></script>
 </head>
+
 <body>
-    <div class="cards">
-        <div class="card-aula">
-            <div class="card-text">
-                <h1>Zumba</h1>
+    <div class="section">
+        <div class="cards">
+            <div class="card-aula">
+                <div class="card-text">
+                    <h1>Zumba</h1>
+                </div>
+            </div>
+            <div class="card-aula">
+                <div class="card-text">
+                    <h1>Zumba</h1>
+                </div>
+            </div>
+            <div class="card-aula">
+                <div class="card-text">
+                    <h1>Zumba</h1>
+                </div>
+            </div>
+            <div class="card-aula">
+                <div class="card-text">
+                    <h1>Zumba</h1>
+                </div>
+            </div>
+            <div class="break"></div>
+            <div class="break"></div>
+        </div>
+        <div id="button">
+            <button id="open-modal">
+                <p>Adicionar Aula</p>
+                <image src="/codigo-fonte/assets/icons/add.svg" alt="Adicionar Aula"></image>
+            </button>
+        </div>
+        <div id="fade" class="hide"></div>
+        <div id="add-modal" class="hide">
+            <div class="modal-header">
+                Cadastrar aula
+            </div>
+            <div class="info">
+                <form>
+                    <select name="aulas" id="aulas" class="options">
+                        <option value="" disabled selected hidden>Aula</option>
+                        <option value="zumba">Zumba</option>
+                        <option value="zumba">Zumba</option>
+                        <option value="zumba">Zumba</option>
+                    </select>
+                    <select name="horario" id="horario" class="options">
+                        <option value="" disabled selected hidden>Horário</option>
+                        <option value="dez">10:30</option>
+                        <option value="dez">10:30</option>
+                        <option value="dez">10:30</option>
+                    </select>
+                    <select name="data" id="data" class="options">
+                        <option value="" disabled selected hidden>Data</option>
+                        <option value="data">11/11</option>
+                        <option value="data">11/11</option>
+                        <option value="data">11/11</option>
+                    </select>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <div id="button">
+                    <button id="close-modal">
+                        <p>Voltar</p>
+                    </button>
+                </div>
+                <div id="button">
+                    <button id="close-modal">
+                        <p>Continuar</p>
+                    </button>
+                </div>
             </div>
         </div>
-        <div class="card-aula">
-            <div class="card-text">
-                <h1>Zumba</h1>
-            </div>
-        </div>
-        <div class="card-aula">
-            <div class="card-text">
-                <h1>Zumba</h1>
-            </div>
-        </div>
-        <div class="card-aula">
-            <div class="card-text">
-                <h1>Zumba</h1>
-            </div>
-        </div>
-        <div class="break"></div>
-        <div class="break"></div>
     </div>
-    <div id="button">
-        <button id="open-modal">
-            <p>Adicionar Aula</p>
-            <image src="/codigo-fonte/assets/icons/add.svg" alt="Adicionar Aula"></image>
-        </button>
-    </div>
-    <div id="fade" class="hide"></div>
-    <div id="add-modal" class="hide">
-        <div class="modal-header">
-            Cadastrar aula
-        </div>
-        <div class="info">
-            <form>
-                <select name="aulas" id="aulas" class="options">
-                    <option value="" disabled selected hidden>Aula</option>
-                    <option value="zumba">Zumba</option>
-                    <option value="zumba">Zumba</option>
-                    <option value="zumba">Zumba</option>
-                </select>
-                <select name="horario" id="horario" class="options">
-                    <option value="" disabled selected hidden>Horário</option>
-                    <option value="dez">10:30</option>
-                    <option value="dez">10:30</option>
-                    <option value="dez">10:30</option>
-                </select>
-                <select name="data" id="data" class="options">
-                    <option value="" disabled selected hidden>Data</option>
-                    <option value="data">11/11</option>
-                    <option value="data">11/11</option>
-                    <option value="data">11/11</option>
-                </select>
-            </form>
-        </div>
-        <div class="modal-footer">
-            <div id="button">
-                <button id="close-modal">
-                    <p>Voltar</p>
-                </button>
+
+    <aside>
+        <div class="sidebar">
+            <div class="logo">
+                <img src="/codigo-fonte/sidebar/images/flexifit.svg" alt="Flexifit">
             </div>
-            <div id="button">
-                <button id="close-modal">
-                    <p>Continuar</p>
-                </button>
-            </div>
+            <ul class="menu">
+                <li>
+                    <a href="/codigo-fonte/aulas/aulas.html">
+                        <button class="Aulas">
+                            <img src="/codigo-fonte/sidebar/images/gym.svg" alt="Aulas">
+                            <p>Aulas</p>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="/codigo-fonte/cadastro/cadastro.html">
+                        <button class="Perfil">
+                            <img src="/codigo-fonte/sidebar/images/profile.svg" alt="Perfil">
+                            <p>Perfil</p>
+                        </button>
+                    </a>
+                </li>
+                <li>
+                    <a href="/codigo-fonte/agenda/agenda.html">
+                        <button class="Agenda">
+                            <img src="/codigo-fonte/sidebar/images/calendar.svg" alt="Agenda">
+                            <p>Agenda</p>
+                        </button>
+                    </a>
+                </li>
+            </ul>
         </div>
-    </div>
+    </aside>
+</body>
+
 </html>
